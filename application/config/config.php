@@ -26,6 +26,8 @@ function __autoload( $classname ){
 
 $config['base_url'] = ((isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] == "on") ? "https" : "http");
 $config['base_url'] .= "://".'appss.misiva.com.ec/';
+
+
 $config['base_url'] = "http://localhost:10088/alerup-dev/";
 
 /*

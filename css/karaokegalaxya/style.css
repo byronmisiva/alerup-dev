@@ -1,0 +1,533 @@
+body {
+    font-family: 'Roboto-Light';
+    color: #fff;
+    background-color: #000000;
+    margin: 0;
+    padding: 0;
+}
+
+a, a:hover, a:visited {
+    color: #ffffff;
+}
+
+a:hover, a:visited {
+    font-weight: bold;
+}
+
+.roboto-light {
+    font-family: 'Roboto-Light';
+}
+
+.roboto-bold {
+    font-family: 'Roboto-Bold';
+}
+
+#webcam {
+    float: left;
+}
+
+.fondo-home,
+.fondo-instrucciones,
+.fondo-recorder,
+.fondo-galeria,
+.fondo-registro {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    position: absolute;
+    padding-top: 5%;
+}
+
+.fondo-registro {
+    padding-top: 0;
+}
+
+.cien {
+    width: 100%;
+}
+
+.fondo-recorder {
+    padding-top: 2%;
+}
+
+.fondo-home {
+    background-image: url("../../imagenes/karaokegalaxya/home/fondo_home.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.fondo-instrucciones {
+    background-image: url("../../imagenes/karaokegalaxya/intrucciones/fondo_intrucciones.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.fondo-recorder {
+    background-image: url("../../imagenes/karaokegalaxya/web-cam/fondo_webcam.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.fondo-galeria {
+    background-image: url("../../imagenes/karaokegalaxya/galeria/fondo_galeria.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.fondo-registro {
+    background-image: url("../../imagenes/karaokegalaxya/registro/fondo_registro.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.logo-samsung-galaxya {
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.logo-samsung {
+    margin-right: 20px;
+    margin-top: 30px;
+}
+
+.terminos-condiciones {
+    text-align: center;
+    font-size: 12px;
+    position: absolute;
+    width: 100%;
+    bottom: 15px;
+}
+
+.btn-home-instrucciones, .btn-home-subir-video, .btn-home-galeria, .btn-home-home {
+    cursor: pointer;
+    font-size: 13px;
+}
+
+.icono-galeria {
+    background-image: url("../../imagenes/karaokegalaxya/galeria.png");
+    background-repeat: no-repeat;
+    background-size: 25px 25px;
+    background-position: 20px 8px;
+}
+
+.icono-instrucciones {
+    background-image: url("../../imagenes/karaokegalaxya/intrucciones.png");
+    background-repeat: no-repeat;
+    background-size: 25px 25px;
+    background-position: 20px 8px;
+}
+
+.icono-subir-video {
+    background-image: url("../../imagenes/karaokegalaxya/subir_video.png");
+    background-repeat: no-repeat;
+    background-size: 24px 20px;
+    background-position: 8px 12px;
+
+}
+
+.logo-karaoke img, .logo-karaoke-galeria img, .btn-home-instrucciones img, .btn-home-subir-video img, .btn-home-galeria img, .btn-home-home img {
+    margin: 0 auto;
+}
+
+.logo-karaoke {
+    padding-bottom: 40px;
+}
+
+.logo-karaoke-galeria {
+    padding-bottom: 0px;
+}
+
+p.texto-home {
+    font-size: 22px;
+    padding-top: 60px;
+}
+
+.titulo {
+    font-size: 24px;
+}
+
+.titulo-der {
+    font-size: 24px;
+}
+
+.titulo p {
+    text-shadow: 6px 6px 6px rgba(0, 0, 0, 0.5);
+}
+
+.texto20 {
+    font-size: 20px;
+
+}
+
+.conten-instrucciones {
+    margin: 30px 5%;
+    padding: 30px 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.imagen-galeria {
+    margin: 0 auto 20px;
+}
+
+#galeria-imagenes {
+    margin: 10px 0;
+    display: inline-block;
+}
+
+#webcam-container, #mediaplayer-container {
+    width: 495px;
+}
+
+#recordStartButton {
+
+}
+
+p.texto-interno, .texto-interno {
+    font-size: 22px;
+}
+
+input[type="text"], input[type="email"] {
+    background-color: rgba(0, 0, 0, 0.5);
+    border: medium none;
+    box-shadow: none;
+    color: #ffffff;
+    display: block;
+    font-family: sans-serif;
+    font-size: 13px;
+    margin: 0 0 5px;
+    padding: 8px;
+    text-align: center;
+    width: 100%;
+}
+
+ul.login_wid li {
+    list-style-type: none;
+}
+
+ul.login_wid {
+    margin: 0;
+    padding: 0;
+}
+
+/*input.btn-ingreso {
+    background: url("../../imagenes/karaokegalaxya/registro/boton_continuar.png") no-repeat scroll 0 0 transparent;
+    color: #000000;
+    width: 150px;
+    height: 41px;
+    border: none;
+    margin-top: 20px;
+}*/
+
+.margen100 {
+    padding: 100px 0 0 0;
+    margin: 0;
+}
+
+.carga-archivo {
+    border-radius: 6px;
+    font-size: 14px;
+    height: 30px;
+    line-height: 15px;
+    padding: 0;
+}
+
+.margen-0 {
+    padding: 0;
+    margin: 0;
+}
+
+.modal-content {
+    background-color: rgba(1, 169, 206, 0.71)
+}
+
+.close {
+    color: #fff;
+    opacity: 1;
+}
+
+.modal-header {
+    border-bottom: medium none;
+    min-height: 13.43px;
+    padding: 7px;
+}
+
+.carousel-control {
+    width: 5%;
+    opacity: .9;
+}
+
+.fondo-video {
+    background-color: #000000;
+    border-radius: 20px;
+    height: 39px;
+    line-height: 39px;
+    padding: 0 0 0 15px;
+    width: 215px;
+
+}
+
+.boton-buscar-video {
+    margin: 0 10px 0 0;
+    cursor: pointer;
+}
+
+.div-buscar-video input[type="text"] {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+.btn_compartir, .btn_votar {
+    cursor: pointer;
+}
+
+.botontexto, .botontextorojo, .botontextoazul, .btn-primary {
+
+    background-color: rgba(217, 56, 138, 0.8);
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'Roboto-Light';
+    font-size: 16px;
+    height: 41px;
+    line-height: 41px;
+    margin: 5px 5px;
+    width: 150px;
+    text-align: center;
+    border-radius: 4px;
+    border: none;
+}
+
+.btn:focus, .btn:hover {
+    color: #ffff00;
+    background-color: rgba(217, 56, 138, 0.8);
+}
+
+.btn-primary {
+    line-height: 30px;
+}
+
+.botontextoazul {
+    background-color: rgba(1, 169, 206, 0.8);
+}
+
+.botontextorojo {
+    background-color: rgba(171, 0, 32, 0.8);
+}
+
+.botontexto:hover, .botontextoazul:hover, .botontextorojo:hover {
+    color: #ffff00;
+}
+
+.portabotones {
+    display: inline-block;
+}
+
+#uploadFile {
+    display: inline-block;
+    margin: 25px 0;
+    position: inherit;
+}
+
+.videoSubido {
+    padding-top: 0px;
+
+}
+
+#videoSubido {
+    margin: 0 -10px;
+}
+
+#loadergif {
+    position: fixed;
+    background-color: rgba(220, 214, 213, 0.6);
+    width: inherit;
+    height: 360px;
+    padding-top: 100px;
+    width: 480px;
+    margin: 0 auto;
+    border-radius: 9px;
+}
+
+.menuvideo-container-pop {
+    background-color: rgba(1, 169, 206, 0.71);
+    padding: 100px 0 150px;
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.col-center-block {
+    float: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.carousel-control.right, .carousel-control.left {
+    background-image: none;
+}
+
+.fileUpload {
+    position: relative;
+    overflow: hidden;
+    margin: 10px;
+}
+
+.fileUpload input.upload {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+.center-img {
+    display: table;
+    margin: 0 auto;
+}
+
+#nobrearchivosubir {
+    color: #000000;
+}
+
+.margen10top {
+    margin-top: 20px;
+}
+
+.itemgale {
+    height: 174px;
+}
+
+.carousel-control {
+    width: 15px;
+}
+
+.carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev {
+    left: -5px;
+}
+
+.carousel-control .glyphicon-chevron-right, .carousel-control .icon-next {
+    margin-right: -10px;
+    right: -5px;
+}
+
+@media (max-width: 767px) {
+
+    .itemgale {
+        height: 120px;
+    }
+
+    .titulo {
+        font-size: 20px;
+    }
+
+    .texto20 {
+        font-size: 16px;
+    }
+
+    .conten-instrucciones {
+        background-color: rgba(0, 0, 0, 0.4);
+        margin: 5px 0;
+        padding: 20px;
+    }
+
+    .btn-home-instrucciones, .btn-home-subir-video, .btn-home-galeria, .btn-home-home {
+        margin-top: 10px;
+    }
+
+    .logo-samsung img, .logo-samsung-galaxya img {
+        margin: 0 auto;
+    }
+
+    .logo-samsung-galaxya, .logo-samsung {
+        margin: 50px 0 0;
+    }
+
+    .fondo-home, .fondo-instrucciones, .fondo-recorder, .fondo-galeria, .fondo-registro {
+        position: inherit;
+    }
+
+    .terminos-condiciones {
+        text-align: center;
+        position: inherit;
+        bottom: 0;
+        margin-top: 50px;
+        margin-bottom: 10px;
+    }
+
+    .logo-karaoke {
+        padding-bottom: 10px;
+        padding: 0px 20px 10px;
+    }
+
+    p.texto-home {
+        font-size: 18px;
+        padding-top: 30px;
+    }
+
+    .botontexto, .botontextorojo, .botontextoazul, .btn-primary {
+        width: 90%;
+    }
+
+    .menuvideo-container-pop {
+        padding: 40px 0;
+        float: inherit !important;
+    }
+
+    .margen100 {
+        padding: 10px 0 0 0;
+    }
+
+    p.texto-interno, .texto-interno {
+        font-size: 20px;
+    }
+
+    .icono-instrucciones, .icono-subir-video,.icono-galeria {
+        background-size: 15px 15px;
+        background-position: 12px 14px;
+        font-size: 12px;
+    }
+
+    .icono-subir-video  {
+        background-position: 5px 14px;
+    }
+}
+
+@media (min-width: 768px) {
+    .vertical-center {
+
+        min-height: 100%; /* Fallback for browsers do NOT support vh unit */
+        min-height: 85vh; /* These two lines are counted as one :-)       */
+
+        display: flex;
+        align-items: center;
+
+        margin: 0 auto;
+        -webkit-box-pack: center;
+        -webkit-box-align: center;
+
+        display: -webkit-box;
+    }
+
+    .margen100 {
+        padding: 10px 0 0 0;
+    }
+}
+
+@media (min-width: 992px) {
+}
+
+@media (min-width: 1200px) {
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .margen-0-md {
+        margin: 0;
+        padding: 0;
+    }
+}

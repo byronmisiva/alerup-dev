@@ -1,0 +1,1573 @@
+@CHARSET "UTF-8";
+@font-face {
+    font-family: 'Kalam-Regular';
+    src: url('Kalam-Regular.eot?#iefix') format('embedded-opentype'), url('Kalam-Regular.woff') format('woff'), url('Kalam-Regular.ttf') format('truetype'), url('Kalam-Regular.svg#Kalam-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    width: 810px;
+}
+
+body {
+    font-family: 'Kalam-Regular' !important;
+    background-image: url("../../imagenes/samsung_ruleta/fondo-ruleta.png");
+    color: #444444;
+}
+
+.submit-group {
+    margin-top: 37px;
+}
+
+.imagensigueparticipando {
+    background-image: url("../../imagenes/samsung_ruleta/ruleta/sigue_participando/recuadro-sigue-participando.png");
+    height: 300px;
+    left: 29px;
+    position: absolute;
+    top: 262px;
+    width: 552px;
+}
+
+.submit-group {
+
+    width: 100%;
+    text-align: center
+}
+
+.imagengano {
+
+    background-image: url("../../imagenes/samsung_ruleta/ruleta/recuadro-ganaste.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 300px;
+    left: 0;
+    position: relative;
+    top: -251px;
+}
+
+.actividad-1 #gana,
+.actividad-1 #pierde,
+.actividad-1 .salidasinganar {
+
+}
+
+.contendor-actividad {
+    position: absolute;
+}
+
+.contentselect {
+    height: 372px;
+    margin: 0 auto;
+    padding: 45px 100px;
+    position: relative;
+    top: -240px;
+    width: 500px;
+}
+
+.actividad-0 {
+    position: relative;
+
+}
+
+.contendor-actividad, .actividad-0 {
+    width: 100%;
+    height: 100%;
+
+    left: 0;
+    top: 0px;
+    background-image: url('../../imagenes/samsung_ruleta/FAN/ruleta-fondo.png');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+#recuador-perdiste {
+    left: 18px;
+    position: absolute;
+    top: 300px;
+}
+
+.tpierde {
+    font-size: 26px;
+    left: 92px;
+    line-height: 26px;
+    position: absolute;
+    text-align: center;
+    top: 365px;
+    width: 430px;
+}
+
+#ruleta {
+    position: absolute;
+    height: 700px;
+    left: 0;
+    margin: 0;
+    top: -20px;
+    width: 810px;
+}
+
+#gana {
+    position: relative;
+    left: 0px;
+    top: 0px;
+}
+
+.nofantext {
+    position: absolute;
+    left: 215px;
+    top: 310px;
+    text-align: center;
+    width: 390px;
+}
+
+.colorgris {
+    color: #333;
+}
+
+.textoForm {
+    float: left;
+    margin: 0 10px 0 0;
+    width: 100px;
+}
+
+#pierde {
+    position: absolute;
+    left: 100px;
+    top: 0px;
+}
+
+.ocultar {
+    display: none;
+}
+
+input:focus {
+    outline: 0;
+}
+
+.tgana {
+    font-size: 21px;
+    height: 374px;
+    line-height: 20px;
+    margin: 0 auto;
+    padding: 120px 30px 0;
+    position: relative;
+    text-align: center;
+    top: 0;
+    width: 616px;
+}
+
+#bt-invitar {
+    left: 155px;
+    top: 168px;
+}
+
+#bt-continuar2 {
+    top: 168px;
+    left: 300px;
+}
+
+#bt-continuar {
+    top: -400px;
+
+    display: block;
+    margin: 0 auto;
+    position: relative;}
+
+#bt-continuar2:hover, #bt-invitar:hover, img#bt-invitar:hover {
+    cursor: hand;
+}
+
+img#bt-continuar2:hover {
+    cursor: hand;
+}
+
+img#bt-continuar:hover {
+    cursor: hand;
+}
+
+#recuador-ganaste {
+    position: absolute;
+    top: 300px;
+}
+
+#recuador-perdiste {
+    position: absolute;
+    top: 300px;
+    left: 18px;
+}
+
+  #textopierde {
+    position: absolute;
+    top: 430px;
+}
+
+#bt-invitar, #bt-continuar2 {
+    position: absolute;
+    top: 430px;
+}
+
+#condiciones a {
+    color: #bbb;
+}
+
+#condiciones a:hover {
+    color: #aaa;
+    text-decoration: none;
+}
+
+.logo {
+    background-image: url("../../imagenes/samsung_ruleta/FAN/ruleta-logo.png");
+    background-repeat: no-repeat;
+    height: 374px;
+    margin: 0 auto;
+    width: 616px;
+    position: relative;
+    top: 0px;
+}
+
+.logo2 {
+    background-image: url("../../imagenes/samsung_ruleta/FAN/ruleta-logo2.png");
+    background-repeat: no-repeat;
+    height: 374px;
+    margin: 0 auto;
+    width: 616px;
+    position: relative;
+    top: 0px;
+}
+.logo3 {
+    background-image: url("../../imagenes/samsung_ruleta/FAN/ruleta-logo3.png");
+    background-repeat: no-repeat;
+    height: 374px;
+    margin: 0 auto;
+    width: 616px;
+    position: relative;
+    top: 0px;
+}
+
+.telefono {
+    background-image: url("../../imagenes/samsung_ruleta/FAN/ruleta-intro.png");
+    background-repeat: no-repeat;
+    height: 186px;
+    position: relative;
+
+    width: 428px;
+    margin: 0 auto;
+    top: -40px;
+}
+
+.contendor-actividad .telefono {
+    top: -40px;
+
+}
+
+.medialuna {
+    background-image: url("../../imagenes/samsung_ruleta/FAN/ruleta-intro.png");
+    background-repeat: no-repeat;
+    height: 186px;
+    position: relative;
+    top: -390px;
+    width: 428px;
+    margin: 0 auto;
+}
+
+.btn-acepta {
+    background-image: url("../../imagenes/samsung_ruleta/FAN/ruleta_bt_ingresar_over.png");
+    background-repeat: no-repeat;
+    cursor: pointer;
+    position: relative;
+    height: 180px;
+    width: 168px;
+    margin: 0 auto;
+    top: -50px;
+}
+
+.btn-acepta:hover {
+    background-image: url("../../imagenes/samsung_ruleta/FAN/ruleta_bt_ingresar.png");
+}
+
+.posactividad-0 {
+    top: -170px;
+    left: 5px;
+}
+.posactividad-2 {
+    top: -100px;
+    left: 5px;
+}
+
+.textocontent {
+    background-image: url("../../imagenes/samsung_ruleta/FAN/ruleta-caja-texto-equipos.png");
+    width: 500px;
+    height: 372px;
+    position: relative;
+    margin: 0 auto;
+    top: -240px;
+    padding: 0;
+
+}
+
+.textoact0 {
+    float: left;
+    width: 100%;
+    padding: 45px 40px;
+}
+
+.smartphone {
+    background-image: url("../../imagenes/samsung_ruleta/FAN/ruleta-smartphone.png");
+    width: 250px;
+    height: 248px;
+    float: left;
+
+}
+
+.smartphone-list {
+    height: 240px;
+    width: 234px;
+    text-align: center;
+    float: left;
+    padding: 0 0 0 17px;
+}
+
+.smartphone-list div, .tablet-list div {
+    background-color: #c0e8e1;
+    font-size: 15px;
+    margin: 5px 0;
+
+}
+
+.smartphone-list div:hover, .tablet-list div:hover {
+    background-color: #a2d1c9;
+    cursor: pointer;
+}
+
+.btn-sumbit {
+    background-image: url("../../imagenes/samsung_ruleta/ruleta/bt-continuar.png");
+    background-repeat: no-repeat;
+    border: medium none;
+    cursor: pointer;
+    height: 125px;
+    margin-left: 0px;
+    margin-top: 50px;
+    width: 125px;
+
+    position: inherit;
+}
+
+.tablet {
+    background-image: url("../../imagenes/samsung_ruleta/FAN/ruleta-tablet.png");
+    width: 250px;
+    height: 248px;
+    float: left;
+
+}
+
+.tablet-list {
+    height: 240px;
+    width: 250px;
+    text-align: center;
+    float: left;
+    padding: 0 17px 0 16px;
+}
+
+.smartphone:hover {
+    background-image: url("../../imagenes/samsung_ruleta/FAN/ruleta-smartphone-over.png");
+    cursor: pointer;
+}
+
+.tablet:hover {
+    background-image: url("../../imagenes/samsung_ruleta/FAN/ruleta-tablet_over.png");
+    cursor: pointer;
+}
+
+.imagencierre {
+    background-image: url("../../imagenes/samsung_ruleta/ruleta/cierre.png");
+    height: 293px;
+    margin: 0 auto;
+    position: relative;
+
+    width: 552px;
+}
+
+.textocierre {
+    height: 117px;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    top: 166px;
+    width: 493px;
+}
+
+.contenidoTabla2 {
+    color: #42332a;
+    font-size: 16px;
+    line-height: 21px;
+    margin: 5% auto;
+    text-align: left;
+    width: 360px;
+    background-color: #ffffff;
+}
+
+.descripcion {
+    background-color: rgba(255, 255, 255, 0.9);
+    color: #000;
+    display: inline-block;
+    font-size: 28px;
+    height: 98%;
+    left: 1%;
+    padding: 40px 10px 10px;
+    position: absolute;
+    text-align: center;
+    top: 1%;
+    width: 98%;
+}
+
+.descripcion p {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.cerrarInstrucciones {
+    background-color: transparent;
+    background-image: url("../../imagenes/samsung_ruleta/ruleta/bt-continuar.png");
+    background-repeat: no-repeat;
+    border: medium none;
+    cursor: pointer;
+    height: 125px;
+    margin: 25px 30%;
+    width: 221px;
+}
+
+/*esto no va */
+/*+++++++++++++++++++++++++++++++++++++++++++++++*/
+
+.tituloInstrucion {
+    font-size: 28px;
+    font-weight: bold;
+    padding-bottom: 25px;
+    padding-top: 30px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.cuadroInstruciones {
+    background-color: #fff;
+    font-size: 18px;
+    padding: 10px 45px 35px;
+}
+
+.nofan {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-image: url('../../imagenes/samsung_ruleta/NO_FAN/2_NOFAN.png');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+.registro-fondo {
+    width: 566px;
+    height: 294px;
+    position: relative;
+    background-image: url('../../imagenes/samsung_ruleta/registro/registro-cuerpo.png');
+    background-repeat: no-repeat;
+    margin: 0 auto ;
+    padding: 20px;
+
+}
+
+.texto-intro {
+    background-image: url("../../imagenes/samsung_ruleta/FAN/TEXTO.png");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    height: 206px;
+    margin: 7% auto;
+    width: 464px;
+}
+
+.texto_inicio {
+    background-image: url("../../imagenes/samsung_ruleta/FAN/inicio.png");
+    background-repeat: no-repeat;
+    height: 206px;
+    margin: 13% auto 17px;
+    width: 461px;
+}
+
+.texto_modolte {
+    background-image: url("../../imagenes/samsung_ruleta/FAN/texto_modo2.png");
+    background-repeat: no-repeat;
+    height: 233px;
+    margin: 13% auto 5px;
+    width: 461px;
+    display: none;
+}
+
+.texto_cerrar {
+    background-image: url("../../imagenes/samsung_ruleta/FAN/texto-salir.png");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    height: 233px;
+    margin: 10% auto 25px;
+    width: 461px;
+    display: none;
+}
+
+.contenedor-opciones {
+    height: 305px;
+    left: 10%;
+    position: absolute;
+    top: 47%;
+    width: 650px;
+}
+
+.op1, .op2, .op3,
+.op4, .op5, .op6,
+.op7, .op8, .op9 {
+    position: absolute;
+    width: 119px;
+    height: 148px;
+}
+
+.criatura1, .criatura2, .criatura3,
+.criatura4, .criatura5, .criatura6,
+.criatura7, .criatura8, .criatura9 {
+    position: absolute;
+    width: 90px;
+    height: 84px;
+    opacity: 0;
+}
+
+.criatura1 {
+    background-image: url("../../imagenes/samsung_ruleta/FAN/MONEDITA.png");
+    background-repeat: no-repeat;
+    height: 90px;
+    left: 22%;
+    top: -14%;
+    width: 75px;
+    background-size: 100% auto;
+}
+
+.criatura2 {
+    background-image: url("../../imagenes/samsung_ruleta/FAN/MONEDITA.png");
+    background-repeat: no-repeat;
+    height: 90px;
+    left: 45%;
+    top: -26px;
+    width: 75px;
+    background-size: 100% auto;
+}
+
+.criatura3 {
+    background-image: url("../../imagenes/samsung_ruleta/FAN/MONEDITA.png");
+    background-repeat: no-repeat;
+    height: 90px;
+    left: 66%;
+    top: -10%;
+    width: 84px;
+}
+
+.criatura4 {
+    background-image: url("../../imagenes/samsung_ruleta/FAN/MONEDITA.png");
+    background-repeat: no-repeat;
+    height: 90px;
+    left: 17%;
+    top: -1%;
+    width: 75px;
+    background-size: 100% auto;
+}
+
+.criatura6 {
+    background-image: url("../../imagenes/samsung_ruleta/FAN/MONEDITA.png");
+    background-repeat: no-repeat;
+    height: 90px;
+    left: 71%;
+    top: 1%;
+    width: 84px;
+}
+
+.criatura7 {
+    background-image: url("../../imagenes/samsung_ruleta/FAN/MONEDITA.png");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    height: 90px;
+    left: 10%;
+    top: 10%;
+    width: 75px;
+}
+
+.criatura8 {
+    background-image: url("../../imagenes/samsung_ruleta/FAN/MONEDITA.png");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    height: 90px;
+    left: 45%;
+    top: 15%;
+    width: 75px;
+}
+
+.criatura9 {
+    background-image: url("../../imagenes/samsung_ruleta/FAN/MONEDITA.png");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    height: 90px;
+    left: 76%;
+    top: 17%;
+    width: 75px;
+}
+
+.puntajes {
+    color: #fff;
+    float: right;
+    height: auto;
+    line-height: 26px;
+    margin-right: 23px;
+    margin-top: 10px;
+    text-align: center;
+    width: 56px;
+}
+
+.op1 {
+    background-image: url("../../imagenes/samsung_ruleta/FAN/TUBO_SOLO.png");
+    background-repeat: no-repeat;
+    height: 225px;
+    left: 18%;
+    top: -33%;
+    width: 120px;
+    background-size: 100% auto;
+}
+
+.op2 {
+    background-image: url("../../imagenes/samsung_ruleta/FAN/TUBO_SOLO.png");
+    background-repeat: no-repeat;
+    height: 225px;
+    left: 41%;
+    top: -34%;
+    width: 124px;
+    background-size: 100% auto;
+}
+
+.op3 {
+    background-image: url("../../imagenes/samsung_ruleta/FAN/TUBO_SOLO.png");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    height: 225px;
+    left: 61%;
+    top: -34%;
+    width: 127px;
+    background-size: 100% auto;
+}
+
+.op4 {
+    background-image: url("../../imagenes/samsung_ruleta/FAN/TUBO_SOLO.png");
+    background-repeat: no-repeat;
+    height: 225px;
+    left: 13%;
+    top: -22%;
+    width: 120px;
+    background-size: 100% auto;
+}
+
+.op5 {
+    background-image: url("../../imagenes/samsung_ruleta/FAN/TUBO_SOLO.png");
+    background-repeat: no-repeat;
+    height: 225px;
+    left: 41%;
+    top: -21%;
+    width: 125px;
+    background-size: 100% auto;
+}
+
+.op6 {
+    background-image: url("../../imagenes/samsung_ruleta/FAN/TUBO_SOLO.png");
+    background-repeat: no-repeat;
+    height: 149px;
+    left: 67%;
+    top: -21%;
+    width: 120px;
+    background-size: 100% auto;
+}
+
+.op7 {
+    background-image: url("../../imagenes/samsung_ruleta/FAN/TUBO_SOLO.png");
+    background-repeat: no-repeat;
+    height: 230px;
+    left: 6%;
+    top: -10%;
+    width: 120px;
+    background-size: 100% auto;
+}
+
+.op8 {
+    background-image: url("../../imagenes/samsung_ruleta/FAN/TUBO_SOLO.png");
+    background-repeat: no-repeat;
+    height: 225px;
+    left: 41%;
+    top: -6%;
+    width: 120px;
+    background-size: 100% auto;
+}
+
+.op9 {
+    background-image: url("../../imagenes/samsung_ruleta/FAN/TUBO_SOLO.png");
+    background-repeat: no-repeat;
+    height: 142px;
+    left: 72%;
+    top: -5%;
+    background-size: 100% auto;
+}
+
+#tiempo {
+    color: #fff;
+    float: left;
+    font-size: 20px;
+    height: 33px;
+    line-height: 33px;
+    margin-left: 100px;
+    margin-top: 8px;
+    text-align: center;
+    width: 57px;
+}
+
+.mascara {
+    height: 260px;
+    left: 70px;
+    overflow: hidden;
+    position: absolute;
+    top: 32px;
+    width: 463px;
+}
+
+.texto-instrucciones {
+    background-image: url("../../imagenes/samsung_ruleta/FAN/texto-intrucciones.png");
+    background-repeat: no-repeat;
+    height: 206px;
+    left: 0;
+    margin: 6% auto;
+    position: absolute;
+    top: 0;
+    width: 450px;
+    display: none;
+}
+
+.btn-fondo2 {
+    background-image: url("../../imagenes/samsung_ruleta/fan/bt1.png");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    font-size: 15px;
+    height: 76px !important;
+    width: 195px !important;
+}
+
+.btn-continuar {
+    background-color: transparent;
+    background-image: url("../../imagenes/samsung_ruleta/FAN/btn-continuar.png");
+    background-repeat: no-repeat;
+    border: medium none;
+    height: 65px;
+    margin-left: 238px;
+    margin-top: 0;
+    width: 144px;
+}
+
+.btn-continuar_modo4lg {
+    background-color: transparent;
+    background-image: url("../../imagenes/samsung_ruleta/FAN/btn-continuar.png");
+    background-repeat: no-repeat;
+    border: medium none;
+    height: 112px;
+    margin-left: 238px;
+    margin-top: 0;
+    width: 208px;
+    display: none;
+}
+
+.btn-cerrar {
+    background-color: transparent;
+    background-image: url("../../imagenes/samsung_ruleta/FAN/btn-cerrar.png");
+    background-repeat: no-repeat;
+    border: medium none;
+    height: 112px;
+    margin-left: 238px;
+    margin-top: 10px;
+    width: 208px;
+    display: none;
+}
+
+.modo0 {
+    background-image: url("../../imagenes/samsung_ruleta/FAN/MODO_NORMAL.png");
+    background-repeat: no-repeat;
+    height: 129px;
+    left: 37%;
+    position: inherit;
+    top: 14%;
+    width: 236px;
+}
+
+.modo1 {
+    background-image: url("../../imagenes/samsung_ruleta/FAN/MODO_LTE.png");
+    background-repeat: no-repeat;
+    display: none;
+    height: 129px;
+    left: 37%;
+    position: inherit;
+    top: 14%;
+    width: 236px;
+}
+
+.tiempo {
+    background-image: url("../../imagenes/samsung_ruleta/FAN/TIEMPO.png");
+    background-repeat: no-repeat;
+    height: 79px;
+    left: 25%;
+    position: inherit;
+    top: 3%;
+    width: 177px;
+}
+
+.puntos {
+    background-image: url("../../imagenes/samsung_ruleta/FAN/PUNTOS.png");
+    background-repeat: no-repeat;
+    height: 79px;
+    left: 55%;
+    position: inherit;
+    top: 3%;
+    width: 177px;
+}
+
+.actividad-0, .gracias {
+    width: 100%;
+    height: 700px;
+    display: none;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: none;
+}
+
+.btn-registro {
+    background-color: transparent;
+    color: #fff;
+    cursor: pointer;
+    float: left;
+    height: 41px;
+    margin-left: 180px;
+    margin-top: 565px;
+    padding-bottom: 15px;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.btn-instruciones {
+    background-color: transparent;
+    background-image: url("../../imagenes/samsung_ruleta/FAN/BOTON_INSTRUCCIONES.png");
+    cursor: pointer;
+    float: left;
+    height: 61px;
+    margin-left: 18px;
+    margin-top: 196px;
+    width: 150px;
+}
+
+.btn-continuar-reto2 {
+    background-color: transparent;
+    background-image: url("../../imagenes/samsung_ruleta/btn-continuar.png");
+    border: medium none;
+    cursor: pointer;
+    height: 76px;
+    margin: 0 auto;
+    width: 223px;
+}
+
+.btn-inicio {
+    background-color: transparent;
+    background-image: url("../../imagenes/samsung_ruleta/inicio.png");
+    border: medium none;
+    cursor: pointer;
+    height: 76px;
+    margin: 0 auto;
+    width: 223px;
+}
+
+.btn-compartir, .btn-publicar, .btn-invitar {
+    /*background-color: #42332a;*/
+    background-color: transparent;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    height: 35px;
+    margin: 10px auto;
+    text-align: center;
+    width: 100px;
+}
+
+.btn-compartir, .btn-invitar {
+    background-repeat: no-repeat;
+    background-image: url("../../imagenes/samsung_ruleta/btn-continuar.png");
+    border: medium none;
+    cursor: pointer;
+    height: 76px;
+    margin: 10px auto;
+    width: 223px;
+}
+
+.btn-invitar {
+
+}
+
+.opcionesViajero {
+    background: none repeat scroll 0 0 rgba(255, 255, 255, 0.5);
+    height: 250px;
+    left: 7%;
+    position: absolute;
+    top: 35%;
+    width: 92%;
+    z-index: 10000;
+}
+
+.opcion {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.8);
+    display: inline-block;
+    height: 197px;
+    margin-right: 25px;
+    margin-top: 5px;
+    overflow: hidden;
+    position: relative;
+    width: 200px;
+}
+
+.icono {
+    height: 100%;
+    left: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.icono img {
+    width: 100%;
+    height: 100%;
+}
+
+.vehiculo {
+    background-image: url("../../imagenes/samsung_ruleta/carro.gif");
+    background-repeat: no-repeat;
+    background-size: 350px 174px;
+    height: 190px;
+    left: 1%;
+    position: absolute;
+    top: 71%;
+    width: 356px;
+    display: none;
+}
+
+.vehiculo2 {
+    background-image: url("../../imagenes/samsung_ruleta/carroNoLlantas.gif");
+    background-repeat: no-repeat;
+    background-size: 350px 174px;
+    height: 190px;
+    left: 1%;
+    position: absolute;
+    top: 71%;
+    width: 356px;
+
+}
+
+.fondo-registro {
+
+    background-repeat: no-repeat;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+}
+
+.logo-app {
+    background-image: url("../../imagenes/samsung_ruleta/FAN/LOGO.png");
+    background-repeat: no-repeat;
+    height: 198px;
+    left: 27%;
+    position: absolute;
+    top: 8%;
+    width: 372px;
+}
+
+.logo-app2 {
+    background-image: url("../../imagenes/samsung_ruleta/cierre.png");
+    background-repeat: no-repeat;
+    height: 475px;
+    left: 10%;
+    position: absolute;
+    top: 6%;
+    width: 661px;
+}
+
+.fondo-tipo {
+    background-image: url("../../imagenes/samsung_ruleta/fondo-tipo.png");
+    height: 697px;
+    left: 2%;
+    position: absolute;
+    /*    top: 4%;*/
+    width: 752px;
+    display: none;
+}
+
+.contenedorPop {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+.sombra {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+#Reto-0, #Reto-1, #Reto-2, #Reto-3, #registros, #instrucciones {
+    display: none;
+}
+
+.contenidoTabla {
+    color: #42332a;
+    margin: 38% auto;
+    text-align: center;
+    width: 520px;
+}
+
+.fondo-registros {
+    background-image: url('../../imagenes/samsung_ruleta/CUADRO.png');
+    background-size: 100% 100%;
+    /*border: 2px solid #42332a;*/
+    color: #42332a;
+    margin: 20% auto;
+    text-align: center;
+    width: 618px;
+}
+
+img {
+    border: none;
+}
+
+/*.container {*/
+/*width: 810px !important;*/
+/*height: 767px;*/
+/*padding: 0px;*/
+/*margin: 0px;*/
+/*display: inline-block;*/
+/*color: #658481;*/
+/*position: relative;*/
+/*overflow: hidden !important;*/
+/*}*/
+
+#condiciones {
+    bottom: 2px;
+    font-family: Arial, sans-serif;
+    font-size: 11px;
+    margin: 0 auto;
+    position: absolute;
+    text-align: justify;
+    width: 600px;
+    left: 20px;
+}
+
+.inputTexto {
+    border: medium none !important;
+    height: 20px !important;
+
+    overflow: hidden !important;
+    padding-top: 0 !important;
+    width: 73% !important;
+    margin: 6px 0 0 10px !important;
+}
+
+.mensajesalida {
+    left: 0;
+    position: relative;
+    height: 700px;
+}
+/*
+.mensajesalida {
+    left: 89px;
+    position: absolute;
+    top: -57px;
+}
+*/
+
+
+.registro, .registro2 {
+    display: block;
+    height: 362px;
+    margin: 0 auto;
+    position: relative;
+    top: 0;
+    width: 590px;
+    padding: 20px;
+}
+
+.form-group {
+    margin: 3px 0 !important;
+}
+
+input {
+    background-color: transparent;
+    border: none;
+    color: #000;
+    width: 230px;
+    color: #42332a;
+}
+
+/***cambio boots******************/
+.modal-dialog {
+    padding-bottom: 30px;
+    padding-top: 33% !important;
+    width: 658px !important;
+}
+
+.cuadroReto {
+    padding-top: 0 !important;
+}
+
+.cuadroReto2 {
+    padding-bottom: 30px;
+    padding-top: 0% !important;
+    width: 658px !important;
+}
+
+.cuadroReto3 {
+    padding-bottom: 30px;
+    padding-top: 0% !important;
+    width: 658px !important;
+}
+
+.modal-backdrop {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1030;
+    background-color: #ffffff !important;
+}
+
+.aviso {
+    background-clip: padding-box;
+    border: none !important;
+    border-radius: 6px;
+    box-shadow: none !important;
+    outline: 0 none;
+    position: relative;
+    margin-top: 38%;
+}
+
+.modal-dialog {
+    width: 658px !important;
+}
+
+.des-1, .des-2, .des-3, .des-4, .des-5, .des-6 {
+    opacity: 0;
+}
+
+
+@media screen and (max-width: 809px) {
+    .logo, .telefono, .logo2,.logo3 {
+        width: 100%;
+        background-size: 100% auto;
+        left: 0;
+
+    }
+    .cabeceraregistro {
+        width: 100%;
+    }
+    .telefono {
+        width: 60%;
+    }
+
+    .logo, .logo2, .logo3 {
+        background-position: top center;
+        height: 35%;
+    }
+
+    .telefono {
+        background-position: center bottom;
+        background-size: 60% auto;
+        bottom: 0 !important;
+        position: absolute;
+        top: auto !important;
+        width: 100%;
+    }
+
+    .btn-acepta {
+        background-position: center center;
+        background-size: 30% auto;
+        height: 20%;
+        top: 0;
+        width: 100%;
+        z-index: 10;
+    }
+
+    .imagencierre {
+        background-position: center top;
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+        position: relative;
+        top: 0%;
+        left: 0;
+        width: 100%;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .textocierre {
+        font-size: 15px;
+        left: 0;
+        padding: 85px 30px 20px;
+        position: absolute;
+        width: 100%;
+        top: 0;
+    }
+
+    body {
+        width: 100%;
+    }
+
+    #condiciones {
+        width: 80%;
+        font-size: 9px;
+        margin: 0 auto;
+        position: fixed;
+        text-align: left;
+        left: 5px;
+        bottom: 5px;
+    }
+
+    .actividad-1 #gana, .actividad-1 #pierde, .actividad-1 .salidasinganar {
+        height: 100%;
+        width: 100%;
+        position: absolute;
+    }
+
+    .mensajesalida {
+        left: 0;
+    }
+
+    .actividad-0 .telefono {
+        background-position: center top;
+        top: -305px !important;
+        display: none;
+    }
+
+    .actividad-0 .logo2 {
+        height: 30%;
+
+    }
+   .actividad-0 .logo3 {
+        height: 30%;
+
+    }
+
+    .textocontent {
+        width: 100%;
+        top: 0px;
+
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+    }
+
+    .textoact0 {
+
+        background-image: url("../../imagenes/samsung_ruleta/FAN/ruleta-caja-texto-equipos1.png");
+        background-position: center top;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        float: left;
+        font-size: 20px;
+        padding: 30px 27px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .tablet, .smartphone {
+        width: 50%;
+        background-size: 100% auto;
+        background-repeat: no-repeat;
+
+    }
+
+    .tablet-list, .smartphone-list {
+        width: 50%;
+        background-image: url("../../imagenes/samsung_ruleta/FAN/ruleta-equipo-lista.png");
+        background-size: 100% auto;
+        background-repeat: no-repeat;
+
+    }
+
+    .smartphone-list div, .tablet-list div {
+        font-size: 11px;
+        margin: 1px 0;
+    }
+
+    .smartphone-list {
+
+        padding: 0 0 0 7px;
+    }
+
+    #ruleta {
+        height: 100%;
+        left: 0;
+        margin: 0;
+        position: absolute;
+        top: 0px;
+        width: 100%;
+        padding-top: 60px;
+    }
+
+    #recuador-ganaste {
+        width: 100%;
+    }
+
+    #gana {
+        left: 0px;
+        position: absoluto;
+    }
+
+    .actividad-0, .gracias {
+        height: 100%;
+    }
+
+    #pierde {
+        left: 0;
+        top: 0;
+    }
+
+    #recuador-perdiste {
+        height: auto;
+        left: 0;
+        position: absolute;
+        top: 30%;
+        width: 100%;
+    }
+
+     .tgana {
+        font-size: 20px;
+        left: 0;
+        line-height: 20px;
+        padding: 80px 30px 0;
+        position: absolute;
+        text-align: center;
+        top: 0%;
+        width: 100%;
+    }
+   .tpierde  {
+       font-size: 20px;
+       left: 0;
+       line-height: 20px;
+       padding: 0 30px 0;
+       position: absolute;
+       text-align: center;
+       top: 52%;
+       width: 100%;
+    }
+
+   #pierde .telefono {
+       display: none;
+   }
+
+    #bt-invitar {
+        left: 50px;
+        top: auto;
+    }
+
+    #bt-continuar2 {
+        left: auto;
+        right: 50px;
+        top: auto;
+    }
+
+    #bt-continuar {
+        bottom: 10px;
+        left: 30%;
+        margin: 0 auto;
+        position: absolute;
+        right: auto;
+        top: auto !important;
+    }
+
+    #bt-invitar, #bt-continuar2 {
+        bottom: 10px;
+    }
+
+    .imagensigueparticipando {
+        background-image: url("../../imagenes/samsung_ruleta/ruleta/sigue_participando/recuadro-sigue-participando-mob.png");
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: 90% auto;
+        left: 0;
+        position: absolute;
+        top: 20%;
+        width: 100%;
+    }
+
+    .imagengano {
+        background-image: url("../../imagenes/samsung_ruleta/ruleta/recuadro-ganaste.png");
+        background-position: center top;
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+        left: 0;
+        position: absolute;
+        top: 30%;
+        width: 100%;
+    }
+
+    .pierde .telefono, .gana .telefono {
+        display: none;
+    }
+
+    .registro-fondo {
+        padding: 20px 0;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        height: 100%;
+        margin: 0;
+        position: relative;
+        width: 100%;
+    }
+
+    .fondo-registro {
+        height: 100%;
+        width: 100%;
+    }
+
+    .registro, .registro2 {
+        height: 100%;
+        left: 0;
+        position: absolute;
+        top: 0px;
+        width: 100%;
+        padding: 0;
+    }
+
+    .form-group {
+        margin: 0 0 0  0px !important;
+    }
+    .form-group .textoForm {
+        margin: 0 0 0 20px;
+    }
+
+
+    .textoForm {
+        font-size: 15px;
+        margin: 0;
+        width: 20%;
+    }
+
+    .submit-group {
+        margin-top: 37px;
+        width: 100%;
+        text-align: center
+    }
+
+    .btn-sumbit {
+        bottom: 6px;
+        position: fixed;
+        left: 33%;
+    }
+
+    .contenedor-sesionFB {
+        background: none repeat scroll 0 0 #fff;
+        font-size: 14px;
+        padding: 25px 100px;
+        width: 100%;
+        height: 20%;
+    }
+
+    .login-caja, .like-face {
+        width: 122px;
+
+    }
+
+    .mensajesalida {
+        top: 0px;
+        width: 100%;
+    }
+
+    .fondo-registros {
+
+        width: 100%;
+    }
+
+    .salidasinganar .imagencierre {
+        background-image: url("../../imagenes/samsung_ruleta/ruleta/cierre.png");
+
+    }
+
+    #gana .telefono {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 809px) and (min-width: 321px) {
+    #gana .telefono {
+        display: none;
+    }
+    .smartphone-list {
+        padding: 21px 0 0 14px;
+    }
+
+    .textoact0 {
+        padding: 40px 27px;
+    }
+
+    .tablet-list, .smartphone-list {
+        width: 50%;
+        padding: 10px;
+    }
+
+    .smartphone-list div, .tablet-list div {
+        margin: 7px 0;
+    }
+
+    .textocierre {
+        padding: 100px 38px 20px;
+    }
+}
+
+@media screen and (max-width: 809px) and (min-width: 599px) {
+    #gana .telefono {
+        display: none;
+    }
+    .btn-acepta {
+        background-size: 20% auto;
+        top: 0%;
+    }
+
+    .textocontent {
+        height: 100%;
+    }
+
+    .textoact0 {
+        padding: 59px 27px;
+    }
+
+    .tablet, .smartphone {
+        height: 40%;
+
+    }
+
+
+
+}
